@@ -1,0 +1,17 @@
+METODOS\AbstractFacade.class
+WS\service\TipoFacadeREST.class
+METODOS\PublicacionFacade.class
+AdministracionIU\administracionIU.class
+WS\service\ApplicationConfig.class
+PublicacionesIU\PublicacionesIU.class
+SERVICIOS\tipoRest.class
+SERVICIOS\publicacionRest.class
+SERVICIOS\servicios.class
+ENTIDADES\Tipo.class
+METODOS\TipoFacade.class
+TipoIU\tipoIU.class
+WS\service\AbstractFacade.class
+utils\Constantes.class
+ENTIDADES\Publicacion.class
+WS\service\PublicacionFacadeREST.class
+AdministracionIU\administracionTipoIU.class
