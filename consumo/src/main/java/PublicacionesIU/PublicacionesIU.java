@@ -79,16 +79,11 @@ public class PublicacionesIU {
     public String HTMLVistaReporteTipo() throws JSONException {
        
         String result = "";
-        result += "          <div class='card'>"
-                + "             <div class='card-header fluid' role='tab' id='questionOne'>"
-                + "                 <h5 class='card-title'>"
-                + "                     <p align='left'><i class='fa fa-eye' title='VER PUBLICACIONES'> Publicaciones Por Tipo</i></p>"
-                + "                 </h5>"
-                + "             </div>"
-                + "             <div id='answerOne' class='collapse in' role='tabcard' aria-labelledby='questionOne'>"
+        result += 
+                 "             <div id='answerOne' class='collapse in' role='tabcard' aria-labelledby='questionOne'>"
                 + "                 <div class='card-title'>"
                 +"<div class='table-responsive'>"
-                + "                     <table class='table table-responsive table-striped table-bordered table-sm' id='tablaid'>"
+                + "                     <table class='table table-striped table-bordered table-sm' cellspacing='0' width='100%' id='tablaid'>"
                 + "                         <thead>"
                 + "                             <tr>"
                 + "                                 <th scope='col'>N.</th>"
@@ -105,7 +100,7 @@ public class PublicacionesIU {
         
         for (Publicacion oPublicacion : listPublicacion) {
             cont++;
-        result += "                             <tr onclick='clicModalMuestra(" + oPublicacion.getIdpublicacion()+ "); return false;'>"
+        result += "                             <tr (" + oPublicacion.getIdpublicacion()+ "); return false;'>"
                 + "                                 <th style='font-weight: ;'>" + cont + "</th>"
                 + "                                 <th style='font-weight: ;'>" + oPublicacion.getAutores() + "</th>"
                 + "                                 <th style='font-weight: ;'><a href=\"" + oPublicacion.getUrl() + "\"> " + oPublicacion.getUrl() + " </a></th>"
@@ -124,6 +119,7 @@ public class PublicacionesIU {
                 + "     </div>"
                 + "</div>"
                 + " <script src=\"frontend/PublicacionJS.js\" type=\"text/javascript\"></script>"
+                +"<script type='text/javascript'>$(document).ready(function(){$('#tablaid').dataTable({'language':{'url':'http://cdn.datatables.net/plug-ins/1.10.21/i18n/Spanish.json'}});});</script>"
                 +"<script type='text/javascript'>$(document).ready(function(){$('#tablaid').DataTable();});</script>";              
         return result;
        
