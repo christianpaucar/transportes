@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>PUBLICACIONES</title>
+    <title>ADMINISTRACION PUBLICACIONES</title>
     <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
@@ -15,10 +15,12 @@
         <script src="frontendtipo/TipoJS.js" type="text/javascript"></script>
         <script src="frontend/PublicacionJS.js" type="text/javascript"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <!-- data table -->
-        <link rel="stylesheet" type="text/css" href="datatable/dataTables.bootstrap4.min.css">             
+        
+        <link rel="stylesheet" type="text/css" href="datatable/dataTables.bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="datatable/bootstrap.min.css">
         <script src="datatable/jquery.dataTables.min.js"></script>
-        <script src="datatable/dataTables.bootstrap4.min.js"></script>      
+        <script src="datatable/dataTables.bootstrap.min.js"></script>
+       
         
         <!-- Bootstrap CSS -->
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.css" crossorigin="anonymous" rel="stylesheet" />
@@ -33,14 +35,14 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.js" crossorigin="anonymous"></script>
 
         <!-- Bootstrap-select -->
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>
 
 </head>
 
 
 <nav class="navbar navbar-expand-md navbar-light bg-light">
-    <a href="#" class="navbar-brand"></a>
+    <a href="index.html" class="navbar-brand"></a>
     <a href="index.html"><img src="img/logo-transportes.png" alt="logo gestion de transportes" width="100" height="50"></a>
     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
@@ -62,6 +64,7 @@
 
 </nav>
 
+
 <section class="banner">
     <img src="img/banner.jpg" alt="banner especifico de transportes" class="img-fluid rounded" style="border-width:10px;">
 </section>
@@ -79,7 +82,7 @@
             <!-- Nav tabs -->
             <ul class="nav nav-tabs" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link active" data-toggle="tab" href="#home">listar publicaciones</a>
+                    <a class="nav-link active" data-toggle="tab" href="#home">ingresar y listar tipo</a>
                 </li>
                
             </ul>
@@ -89,14 +92,10 @@
                 
              <!-- consumo listar y guardar tipo conencion TipoJS.js  -->
                 <div id="home" class="container tab-pane active"><br>
+                    <h3></h3>
                     
-                           <div class="row">
-        <h1>Listado Publicaciones</h1></div>
-    <div class="row">
-         <br><button type='button' class='btn btn-primary' onclick='APMostrarTipoParametro(); return false;'>Elegir Tipo</button><br>
-    </div>
-       
-         
+                            <h1>ingresar publicacion</h1>
+        <br><button type='button' class='btn btn-primary' onclick='IngresarPublicacion(); return false;'>ingresara</button><br>
         <div id="contenidoDinamico" class="mt-1">
             
         </div>
@@ -110,6 +109,8 @@
         </div>
 
     </div>
+</div>
+
 
 
 
