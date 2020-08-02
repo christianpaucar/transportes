@@ -26,7 +26,7 @@ public class tipoRest {
 
     private  WebTarget webTarget;
     private  Client client;
-    private static final String BASE_URI = "http://localhost:8080/consumo/webresources";
+    private static final String BASE_URI = "http://cgt.espoch.edu.ec/consumo/webresources";
 
     public tipoRest() {
         client = javax.ws.rs.client.ClientBuilder.newClient();
