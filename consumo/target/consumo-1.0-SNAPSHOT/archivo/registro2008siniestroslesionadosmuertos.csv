@@ -1,0 +1,73 @@
+provincia,acontecimiento,cantidad
+Azuay,siniestros,1000
+Bolivar,siniestros,123
+Cañar,siniestros,339
+Carchi,siniestros,191
+Chimborazo,siniestros,493
+Cotopaxi,siniestros,635
+El Oro,siniestros,472
+Esmeraldas,siniestros,240
+Galapagos,siniestros,14
+Guayas,siniestros,5513
+Imbabura,siniestros,791
+Loja,siniestros,456
+Los Rios,siniestros,528
+Manabi,siniestros,1060
+Morona Santiago,siniestros,132
+Napo,siniestros,153
+Orellana,siniestros,35
+Pastaza,siniestros,90
+Pichincha,siniestros,5179
+Santa Elena,siniestros,237
+STD,siniestros,734
+Sucumbios,siniestros,101
+Tungurahua,siniestros,992
+Zamora Chinchipe,siniestros,156
+Azuay,lesionados,603
+Bolivar,lesionados,87
+Cañar,lesionados,229
+Carchi,lesionados,162
+Chimborazo,lesionados,400
+Cotopaxi,lesionados,546
+El Oro,lesionados,304
+Esmeraldas,lesionados,153
+Galapagos,lesionados,11
+Guayas,lesionados,2432
+Imbabura,lesionados,492
+Loja,lesionados,240
+Los Rios,lesionados,405
+Manabi,lesionados,939
+Morona Santiago,lesionados,102
+Napo,lesionados,106
+Orellana,lesionados,25
+Pastaza,lesionados,60
+Pichincha,lesionados,2786
+Santa Elena,lesionados,156
+STD,lesionados,427
+Sucumbios,lesionados,89
+Tungurahua,lesionados,467
+Zamora Chinchipe,lesionados,63
+Azuay,muertes,69
+Bolivar,muertes,9
+Cañar,muertes,37
+Carchi,muertes,19
+Chimborazo,muertes,65
+Cotopaxi,muertes,104
+El Oro,muertes,36
+Esmeraldas,muertes,35
+Galapagos,muertes,2
+Guayas,muertes,176
+Imbabura,muertes,68
+Loja,muertes,41
+Los Rios,muertes,110
+Manabi,muertes,140
+Morona Santiago,muertes,9
+Napo,muertes,15
+Orellana,muertes,7
+Pastaza,muertes,3
+Pichincha,muertes,194
+Santa Elena,muertes,33
+STD,muertes,64
+Sucumbios,muertes,7
+Tungurahua,muertes,87
+Zamora Chinchipe,muertes,13

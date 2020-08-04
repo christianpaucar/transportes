@@ -1,0 +1,73 @@
+﻿provincia,acontecimiento,cantidad
+AZUAY,siniestros,1008
+BOLIVAR,siniestros,171
+CANAR,siniestros,344
+CARCHI,siniestros,204
+CHIMBORAZO,siniestros,680
+COTOPAXI,siniestros,685
+EL ORO,siniestros,995
+ESMERALDAS,siniestros,351
+GALAPAGOS,siniestros,9
+GUAYAS,siniestros,10385
+IMBABURA,siniestros,807
+LOJA,siniestros,864
+LOS RIOS,siniestros,1137
+MANABI,siniestros,1398
+MORONA SANTIAGO,siniestros,186
+NAPO,siniestros,203
+ORELLANA,siniestros,227
+PASTAZA,siniestros,254
+PICHINCHA,siniestros,5531
+SANTA ELENA,siniestros,709
+STD,siniestros,731
+SUCUMBIOS,siniestros,131
+TUNGURAHUA,siniestros,979
+ZAMORA CHINCHIPE,siniestros,180
+AZUAY,lesionados,736
+BOLIVAR,lesionados,191
+CANAR,lesionados,271
+CARCHI,lesionados,127
+CHIMBORAZO,lesionados,556
+COTOPAXI,lesionados,440
+EL ORO,lesionados,864
+ESMERALDAS,lesionados,373
+GALAPAGOS,lesionados,10
+GUAYAS,lesionados,7879
+IMBABURA,lesionados,560
+LOJA,lesionados,453
+LOS RIOS,lesionados,1029
+MANABI,lesionados,1468
+MORONA SANTIAGO,lesionados,255
+NAPO,lesionados,174
+ORELLANA,lesionados,205
+PASTAZA,lesionados,219
+PICHINCHA,lesionados,4244
+SANTA ELENA,lesionados,691
+STD,lesionados,914
+SUCUMBIOS,lesionados,97
+TUNGURAHUA,lesionados,737
+ZAMORA CHINCHIPE,lesionados,158
+AZUAY,muertes,53
+BOLIVAR,muertes,35
+CANAR,muertes,33
+CARCHI,muertes,34
+CHIMBORAZO,muertes,82
+COTOPAXI,muertes,149
+EL ORO,muertes,106
+ESMERALDAS,muertes,60
+GALAPAGOS,muertes,0
+GUAYAS,muertes,594
+IMBABURA,muertes,71
+LOJA,muertes,53
+LOS RIOS,muertes,164
+MANABI,muertes,171
+MORONA SANTIAGO,muertes,28
+NAPO,muertes,23
+ORELLANA,muertes,43
+PASTAZA,muertes,16
+PICHINCHA,muertes,301
+SANTA ELENA,muertes,37
+STD,muertes,110
+SUCUMBIOS,muertes,21
+TUNGURAHUA,muertes,68
+ZAMORA CHINCHIPE,muertes,25
