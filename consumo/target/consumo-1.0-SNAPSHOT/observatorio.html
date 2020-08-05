@@ -5,14 +5,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/1.1.0/d3-legend.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.6.3/d3-tip.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -25,10 +17,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <!-- Bootstrap CSS -->
-   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.css" crossorigin="anonymous" rel="stylesheet" />
-   
-   
-    
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.css" crossorigin="anonymous" rel="stylesheet" />
 
 </head>
 
@@ -57,83 +46,180 @@
 </nav>
 
 
-
-
 <section class="banner">
     <img src="img/banner.jpg" alt="banner especifico de transportes" class="img-fluid rounded" style="border-width:10px;">
 </section>
 
 <hr>
 
-<div class="svg-container text-center align-content-center"  style="border:0" >
-    
-<div class="jumbotron-fluid ">
-<iframe src="dispercionsiniestros/dispercionsiniestro.html" width="1000" height="600"></iframe></div></div>
-<iframe src="dispercionsiniestros/dispercionsiniestro.html" width="960" height="450"></iframe>
+<div class="container-fluid">
+    <div class="row">
+        <div class="container">
+            <h2>OBSERVATORIO DE LA ESCUELA DE GESTION DE TRANSPORTES</h2>
+            <br><br>
+            <p align="justify">Este espacio ha sido creado para la difusión de datos estadísticos de transito
+                tomados del reporte nacional de siniestros de transito datos históricos que serán plasmados 
+                para mediante recursos gráficos para sus posteriores análisis a partir del 2008 y su última 
+                proyección en el año 2020
+            </p>
 
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#home">OBJETIVO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#menu1">2019</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#menu2">2020</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#menu3">SINIESTROS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#menu4">LESIONES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#menu5">MUERTES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#menu6">HISTORICO</a>
+                </li>
+               
 
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div id="home" class="container tab-pane active"><br>
+                    
+                  <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-5 img-fluid rounded">
+                                <br><br>
+                                 <img src="img/agencia.png " class="col-md-12 img-fluid rounded">
+                            </div>
+                        <div class="col-md-7">
+                            
+                             <h2><u class="border-primary text-black-50">ENFOQUE</u></h2>
+                             <p align="justify">La Escuela de Gestión de Transporte Presenta al público la
+                                 recopilación de los reportes nacionales de siniestros, lesiones y muertes por 
+                                 accidentes de transito misma que se encuentra proyectada a el año 2020 y se 
+                                 ira actualizando de manera continua</p>
+                             <h2><u class="text-black-50">MEDIOS</u></h2>
+                             <p align="justify">Esta información tomada de los reportes nacionales de siniestros
+                                 de transito dará lugar a graficas anuales de los tópicos Siniestros, Lesiones
+                                 y muertes en accidentes de transito los mismos que servirán para la difusión 
+                                 y el estudio de los mismos a través de diagramas de barras y de dispersión de
+                                 puntos para análisis de valores  con relación o atípicos a través de los años 
+                                 con un histórico desde 2008 a la última proyección 2020.</p>
+                        </div>
 
-<div class="container">
-    
-      <h2>Extra Large Modal</h2>
-  <!-- Button to Open the Modal -->
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-    Open modal
-  </button>
+                        </div>
+                  </div>
+                    
+                </div>
+                
+                <div id="menu1" class="container tab-pane fade"><br>
+                     <div class="svg-container text-center align-content-center"  style="border:0">    
+                        <div class="jumbotron-fluid text-center ">
+                            <iframe src="barrassiniestros2019.html" width="1050" height="600" style="border:0"></iframe>
+                        </div>
+                   </div>                                       
+                </div>             
+                               
+                <div id="menu2" class="container tab-pane fade"><br>
+                    <div class="svg-container text-center align-content-center"  style="border:0" >    
+                        <div class="jumbotron-fluid ">
+                            <iframe src="barrassiniestros2020.html" width="1050" height="600" style="border:0" ></iframe>
+                        </div>
+                   </div>
+                </div>
+                
+                <div id="menu3" class="container tab-pane fade"><br>
+                    
+                   <div class="svg-container text-center align-content-center"  style="border:0" >    
+                        <div class="jumbotron-fluid ">
+                            <iframe src="dispercionsiniestros/dispercionsiniestro.html" width="1050" height="600" style="border:0"></iframe>
+                        </div>
+                   </div>
+                    
+                   
+                </div>
+                <div id="menu4" class="container tab-pane fade"><br>
+                    
+                   <div class="svg-container text-center align-content-center"  style="border:0" >    
+                        <div class="jumbotron-fluid ">
+                            <iframe src="dispercionlesiones/dispercionlesion.html" width="1050" height="600" style="border:0"></iframe>
+                        </div>
+                   </div>
+                    
+                   
+                </div>
+                <div id="menu5" class="container tab-pane fade"><br>
+                    
+                   <div class="svg-container text-center align-content-center"  style="border:0" >    
+                        <div class="jumbotron-fluid ">
+                            <iframe src="dispercionmuertes/dispercionmuerte.html" width="1050" height="600" style="border:0"></iframe>
+                        </div>
+                   </div>                   
+                   
+                </div>
+                
+                <div id="menu6" class="container tab-pane fade"><br>
+                    
+ <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-5 img-fluid rounded">
+                                <br><br>
+                                 <img src="img/agencia.png " class="col-md-12 img-fluid rounded">
+                            </div>
+                        <div class="col-md-7">
+                            
+                             <h2><u class="border-primary text-black-50">GRAFICOS DE DISPERSION</u></h2>
+                             <a href="dispercionsiniestros/dispercionsiniestro.html" target="_blank" rel="noopener noreferrer">siniestros</a><br>
+                            <a href="dispercionlesiones/dispercionlesion.html" target="_blank">lesiones</a><br>
+                            <a href="dispercionmuertes/dispercionmuerte.html" target="_blank">muertes</a><br>
+                             <h2><u class="text-black-50">GRAFICOS DE BARRAS</u></h2>
+                             <div class="col-md-3 img-fluid rounded">
+                                <a href="barrassiniestros2008.html" target="_blank">barras 2008</a><br> 
+                                <a href="barrassiniestros2009.html" target="_blank">barras 2009</a><br>  
+                                <a href="barrassiniestros2010.html" target="_blank">barras 2010</a><br>  
+                                <a href="barrassiniestros2011.html" target="_blank">barras 2011</a><br>  
+                                <a href="barrassiniestros2012.html" target="_blank">barras 2012</a><br>  
+                                <a href="barrassiniestros2013.html" target="_blank">barras 2013</a><br>
+                                
+                             </div>
+                             <div class="col-md-3 img-fluid rounded">
+                                  <a href="barrassiniestros2014.html" target="_blank">barras 2014</a><br>
+                                  <a href="barrassiniestros2015.html" target="_blank">barras 2015</a><br>  
+                                  <a href="barrassiniestros2016.html" target="_blank">barras 2016</a><br>  
+                                  <a href="barrassiniestros2017.html" target="_blank">barras 2017</a><br>  
+                                  <a href="barrassiniestros2018.html" target="_blank">barras 2018</a><br>  
+                                  <a href="barrassiniestros2019.html" target="_blank">barras 2019</a><br> 
+                                  
+                             </div>
+                              
+                             
+                           
+                        </div>
 
-  <!-- The Modal -->
-  <div class="modal fade" id="myModal">
-    <div class="modal-dialog modal-xl">
-      <div class="modal-content">
-      
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <h4 class="modal-title">Modal Heading</h4>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                  </div>
+                    
+                    
+                    
+                </div> 
+                
+             
+                </div>
+
+                
+            </div>
         </div>
-        
-        <!-- Modal body -->
-        <div class="modal-body">
-            <iframe src="barrassiniestros2008.html" width="960" height="450"></iframe>
-            
-        </div>
-        
-        <!-- Modal footer -->
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-        
-      </div>
-    </div>
-  </div>
-  
-</div>
+ </div>
 
-<a href="dispercionsiniestros/dispercionsiniestro.html" target="_blank" rel="noopener noreferrer">siniestros</a> es un sitio web de tutoriales de informática.</p>
-<a href="dispercionlesiones/dispercionlesion.html" target="_blank">lesiones</a> es un sitio web de tutoriales de informática.</p>
-<a href="dispercionmuertes/dispercionmuerte.html" target="_blank">muertes</a> es un sitio web de tutoriales de informática.</p>
-<a href="barrassiniestros2008.html" target="_blank">barras 2008</a> es un sitio web de tutoriales de informática.</p>
-<a href="barrassiniestros2009.html" target="_blank">barras 2009</a> es un sitio web de tutoriales de informática.</p>
-<a href="barrassiniestros2010.html" target="_blank">barras 2010</a> es un sitio web de tutoriales de informática.</p>
-<a href="barrassiniestros2011.html" target="_blank">barras 2011</a> es un sitio web de tutoriales de informática.</p>
-<a href="barrassiniestros2012.html" target="_blank">barras 2012</a> es un sitio web de tutoriales de informática.</p>
-<a href="barrassiniestros2013.html" target="_blank">barras 2013</a> es un sitio web de tutoriales de informática.</p>
-<a href="barrassiniestros2014.html" target="_blank">barras 2014</a> es un sitio web de tutoriales de informática.</p>
-<a href="barrassiniestros2015.html" target="_blank">barras 2015</a> es un sitio web de tutoriales de informática.</p>
-<a href="barrassiniestros2016.html" target="_blank">barras 2016</a> es un sitio web de tutoriales de informática.</p>
-<a href="barrassiniestros2017.html" target="_blank">barras 2017</a> es un sitio web de tutoriales de informática.</p>
-<a href="barrassiniestros2018.html" target="_blank">barras 2018</a> es un sitio web de tutoriales de informática.</p>
-<a href="barrassiniestros2019.html" target="_blank">barras 2019</a> es un sitio web de tutoriales de informática.</p>
-<a href="barrassiniestros2020.html" target="_blank">barras 2020</a> es un sitio web de tutoriales de informática.</p>
-
-
-
-
-
-
-
-
-
+   
 
 
 
