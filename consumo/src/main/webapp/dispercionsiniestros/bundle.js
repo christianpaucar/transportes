@@ -184,6 +184,7 @@
     });
   };
 
+
   d3.csv('CSVSINIESTRO.csv')
     .then(loadedData => {
       data = loadedData;
