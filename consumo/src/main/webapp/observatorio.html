@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/iframe.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -17,8 +18,30 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <!-- Bootstrap CSS -->
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.css" crossorigin="anonymous" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.css" crossorigin="anonymous" rel="stylesheet" />
+    <style>
+html,body        {height:100%;}
+.wrapper         {width:80%;height:100%;margin:0 auto;background:#CCC}
+.h_iframe        {position:relative;}
+.h_iframe .ratio {display:block;width:100%;height:auto;}
+.h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
+</style>
+     <script>
+         var calcHeight = function() {
+           $('#preview-frame').height($(window).height());
+         }
 
+         $(document).ready(function() {
+           calcHeight();
+         }); 
+
+         $(window).resize(function() {
+           calcHeight();
+         }).load(function() {
+           calcHeight();
+         });
+      </script> 
+        
 </head>
 
 
@@ -35,7 +58,7 @@
             <a href="acercade.html" class="nav-item nav-link">ACERCA</a>
             <a href="academia.html" class="nav-item nav-link">ACADEMIA</a>
             <a href="https://seguridad.espoch.edu.ec/cas/login?service=https%3A%2F%2Felearning.espoch.edu.ec%2Flogin%2Findex.php" class="nav-item nav-link">APLICACIONES</a>
-            <a href="#" class="nav-item nav-link">POSTGRADO</a>
+            <a href="observatorio.html" class="nav-item nav-link">OBSERVATORIO</a>
             <a href="#" class="nav-item nav-link">ADMINISTRACION</a>
             <a href="publicaciones.html" class="nav-item nav-link">PUBLICACIONES</a>
             <a href="innova.html" class="nav-item nav-link">INNOVA</a>
@@ -121,15 +144,15 @@
                 </div>
                 
                 <div id="menu1" class="container tab-pane fade"><br>
-                     <div class="svg-container text-center align-content-center"  style="border:0">    
-                        <div class="jumbotron-fluid text-center ">
-                            <iframe src="barrassiniestros2019.html" width="1050" height="600" style="border:0"></iframe>
+                     <div class="svg-container text-center align-content-center mt-1"  style="border:0" >    
+                        <div class="jumbotron-fluid ">
+                            <iframe src="barrassiniestros2019.html" width="1050" height="600" style="border:0" ></iframe>
                         </div>
-                   </div>                                       
+                   </div>
                 </div>             
                                
                 <div id="menu2" class="container tab-pane fade"><br>
-                    <div class="svg-container text-center align-content-center"  style="border:0" >    
+                    <div class="svg-container text-center align-content-center mt-1"  style="border:0" >    
                         <div class="jumbotron-fluid ">
                             <iframe src="barrassiniestros2020.html" width="1050" height="600" style="border:0" ></iframe>
                         </div>
@@ -158,11 +181,14 @@
                 </div>
                 <div id="menu5" class="container tab-pane fade"><br>
                     
-                   <div class="svg-container text-center align-content-center"  style="border:0" >    
+<!--                   <div class="svg-container text-center align-content-center"  style="border:0" >    
                         <div class="jumbotron-fluid ">
                             <iframe src="dispercionmuertes/dispercionmuerte.html" width="1050" height="600" style="border:0"></iframe>
                         </div>
-                   </div>                   
+                   </div>                   -->
+                        <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="dispercionmuertes/dispercionmuerte.html"  allowfullscreen></iframe>
+                        </div>  
                    
                 </div>
                 

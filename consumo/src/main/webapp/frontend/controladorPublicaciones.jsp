@@ -1,5 +1,6 @@
+<h1>hola</h1>
 <%@page import="javafx.scene.control.Alert"%>
-<%
+<% 
     try{
         String task = request.getParameter("task");
         session.setAttribute("task", task);
